@@ -1,6 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.fluentlenium.adapter.FluentTest;
+import static org.fluentlenium.core.filter.FilterConstructor.*;
 import org.junit.ClassRule;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;

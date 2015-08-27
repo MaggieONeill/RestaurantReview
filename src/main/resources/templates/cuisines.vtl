@@ -1,0 +1,15 @@
+<h2>Cuisines</h2>
+
+<form action='/cuisines' method="get">
+  #foreach ($cuisine in $cuisines)
+    #if ($cuisine.getName())
+      <ul><li><a href="cuisines/$cuisine.getId()/restaurants">$cuisine.getName()</a></li></ul>
+    #else
+      <h6>You haven't added anything yet. Sooo, go do that now :)</h6>
+    #end
+  #end
+</form>
+
+<form action="/cuisines/new">
+  <button class="btn btn-default" type="submit">Add Another Cuisine</button>
+</form>
