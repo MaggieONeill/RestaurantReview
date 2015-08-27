@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RestaurantTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2015-08-27T18:18:52" hostname="epicodus-103.local" time="0.153">
+<testsuite name="RestaurantTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2015-08-27T22:09:58" hostname="epicodus-103.local" time="0.154">
   <properties/>
   <testcase name="updateCuisine_updatesToNewCuisine" classname="RestaurantTest" time="0.019"/>
-  <testcase name="all_returnsSavedObjects" classname="RestaurantTest" time="0.012"/>
+  <testcase name="all_returnsSavedObjects" classname="RestaurantTest" time="0.013"/>
   <testcase name="getArea_returnsCorrectArea" classname="RestaurantTest" time="0.004"/>
   <testcase name="getName_returnsRestaurantName_503Burgers" classname="RestaurantTest" time="0.004"/>
-  <testcase name="updateAre_updatesNewArea" classname="RestaurantTest" time="0.016"/>
+  <testcase name="updateAre_updatesNewArea" classname="RestaurantTest" time="0.017"/>
   <testcase name="getcuisine_id_returnsCorrectId" classname="RestaurantTest" time="0.004"/>
   <testcase name="updateName_updatesToNewName" classname="RestaurantTest" time="0.017"/>
   <testcase name="getdog_friendly_returnsTrue" classname="RestaurantTest" time="0.004"/>
-  <testcase name="find_findsRestaurantById" classname="RestaurantTest" time="0.014"/>
+  <testcase name="find_findsRestaurantById" classname="RestaurantTest" time="0.013"/>
   <testcase name="all_emptyAtFirst" classname="RestaurantTest" time="0.008"/>
-  <testcase name="save_addsRestaurantToDatabase" classname="RestaurantTest" time="0.012"/>
+  <testcase name="save_addsRestaurantToDatabase" classname="RestaurantTest" time="0.014"/>
   <testcase name="delete_cuisine" classname="RestaurantTest" time="0.016"/>
-  <testcase name="updateDogFriendly_updatesToNewDogFriendly" classname="RestaurantTest" time="0.018"/>
+  <testcase name="updateDogFriendly_updatesToNewDogFriendly" classname="RestaurantTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

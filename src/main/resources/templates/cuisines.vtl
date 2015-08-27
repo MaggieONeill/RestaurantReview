@@ -1,15 +1,28 @@
-<h2>Cuisines</h2>
+<div class="row">
 
-<form action='/cuisines' method="get">
-  #foreach ($cuisine in $cuisines)
-    #if ($cuisine.getName())
-      <ul><li><a href="cuisines/$cuisine.getId()/restaurants">$cuisine.getName()</a></li></ul>
-    #else
-      <h6>You haven't added anything yet. Sooo, go do that now :)</h6>
-    #end
+  <div class="col-md-6" id="cuisines" name="cuisines" float="left">
+  #if($cuisines.size() > 0)
+      <table class="table">
+        <thead>
+          <th>Cuisines</th>
+        </thead>
+        <tbody>
+          #foreach ($cuisine in $cuisines)
+            <tr class="success">
+              <td>
+                <a href="/cuisines/$cuisine.getId()/restaurants">$cuisine.getCuisineName()</a>
+                <!-- <a href="/cuisines/$cuisine.getId()/edit">Edit</a> -->
+              </td>
+            </tr>
+          #end
+        </tbody>
+      </table>
+  #else
+    <div>
+      <h3>Oops! There are no cuisines to view!</h3>
+    </div>
   #end
-</form>
+  </div>
 
-<form action="/cuisines/new">
-  <button class="btn btn-default" type="submit">Add Another Cuisine</button>
-</form>
+
+</div>
