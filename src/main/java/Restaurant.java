@@ -46,9 +46,10 @@ public class Restaurant {
   }
 
   public void save() {
-    String sql = "INSERT INTO restaurants (name, dog_friendly, cuisine_id, area) VALUES (:name, :dog_friendly, :cuisine_id, :area);";
+    String sql = "INSERT INTO restaurants (id, name, dog_friendly, cuisine_id, area) VALUES (:id, :name, :dog_friendly, :cuisine_id, :area);";
     try(Connection con = DB.sql2o.open()) {
       this.id = (int) con.createQuery(sql, true)
+      .addParameter("id", id)
       .addParameter("name", name)
       .addParameter("area", area)
       .addParameter("dog_friendly", dog_friendly)

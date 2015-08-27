@@ -43,6 +43,12 @@ public class RestaurantTest{
     Restaurant newRestaurant = new Restaurant(1, "503burgers", true, 1, "NE");
     assertEquals(1, newRestaurant.getCuisineId());
   }
+  @Test
+  public void save_addsRestaurantToDatabase(){
+    Restaurant newRestaurant = new Restaurant(1, "503burgers", true, 1, "NE");
+    newRestaurant.save();
+    assertEquals(true, Restaurant.all().get(0).equals(newRestaurant));
+  }
 
 
   // @Test

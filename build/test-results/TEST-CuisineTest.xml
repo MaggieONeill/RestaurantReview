@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CuisineTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-08-26T23:08:43" hostname="epicodus-109.local" time="0.249">
+<testsuite name="CuisineTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-08-27T08:56:11" hostname="Sandis-MacBook-Pro.local" time="0.246">
   <properties/>
-  <testcase name="getType_returnsType" classname="CuisineTest" time="0.08"/>
-  <testcase name="all_emptyAtFirst" classname="CuisineTest" time="0.114"/>
-  <testcase name="getId_returnsCorrectId" classname="CuisineTest" time="0.022"/>
-  <testcase name="equals_returnTrueIfTypesMatch" classname="CuisineTest" time="0.007"/>
-  <testcase name="update_Cuisine" classname="CuisineTest" time="0.025"/>
+  <testcase name="getType_returnsType" classname="CuisineTest" time="0.111"/>
+  <testcase name="all_emptyAtFirst" classname="CuisineTest" time="0.042"/>
+  <testcase name="getId_returnsCorrectId" classname="CuisineTest" time="0.04"/>
+  <testcase name="equals_returnTrueIfTypesMatch" classname="CuisineTest" time="0.01"/>
+  <testcase name="update_Cuisine" classname="CuisineTest" time="0.042"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
